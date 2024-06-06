@@ -66,7 +66,3 @@ io.on('connection', function(socket) {
     });
   });
 });
-// create server
-io.on('connection', function(socket) {
-  socket.on('comment', function(comment) {
-    fs.readFile(__dirname + '/comments.json', function(err, data
